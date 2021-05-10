@@ -1,0 +1,19 @@
+service: serverless-demo
+
+provider:
+  name: aws
+  timeout: 30
+  memorySize: 128
+  runtime: nodejs14.x
+  stage: ${opt:stage, 'dev'}
+  environment: ${file(env.yml)}
+  region: ${opt:region, 'us-east-1'}
+  
+functions:
+
+plugins:
+  - serverless-offline
+
+package:
+  patterns: ${file(.exclude.yml)}
+  excludeDevDependencies: true

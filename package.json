@@ -1,0 +1,23 @@
+{
+  "name": "serverless-demo",
+  "version": "1.0.0",
+  "description": "FATECnologia Serverless Framework Demo",
+  "scripts": {
+    "start": "sls offline start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuric18/serverless.git"
+  },
+  "keywords": [],
+  "author": "Yuri Cabral",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuric18/serverless/issues"
+  },
+  "homepage": "https://github.com/yuric18/serverless#readme",
+  "devDependencies": {
+    "serverless": "^2.40.0",
+    "serverless-offline": "^7.0.0"
+  }
+}
