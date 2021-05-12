@@ -7,15 +7,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yuric18/serverless.git"
+    "url": "git+https://github.com/yuric18/serverless-demo.git"
   },
   "keywords": [],
   "author": "Yuri Cabral",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yuric18/serverless/issues"
+    "url": "https://github.com/yuric18/serverless-demo/issues"
   },
-  "homepage": "https://github.com/yuric18/serverless#readme",
+  "homepage": "https://github.com/yuric18/serverless-demo#readme",
   "devDependencies": {
     "serverless": "^2.40.0",
     "serverless-offline": "^7.0.0"
