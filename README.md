@@ -1,10 +1,5 @@
 # 🚀 AWS Lambda com Serverless Framework 🚀
 
-## Índice
-
-* [Introducao](#introducao)
-## Introdução
-
 Nesta apresentação, serão abordados tópicos sobre
 
 * [NodeJS](nodejs.org)
