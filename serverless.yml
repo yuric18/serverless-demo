@@ -8,6 +8,7 @@ provider:
   stage: ${opt:stage, 'dev'}
   environment: ${file(env.yml)}
   region: ${opt:region, 'us-east-1'}
+  lambdaHashingVersion: 20201221
   
 functions:
 
